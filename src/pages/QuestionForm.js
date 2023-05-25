@@ -30,6 +30,7 @@ export const QuestionForm = () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
+        padding: 10
       }}
     >
       <Box component="form" onSubmit={handleSubmit(onSubmit) }
